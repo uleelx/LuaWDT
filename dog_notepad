@@ -1,0 +1,5 @@
+lifetime = 5
+action = {
+  'taskkill /f /im notepad.exe 2>nul',
+  'start notepad'
+}

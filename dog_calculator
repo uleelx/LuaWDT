@@ -1,0 +1,5 @@
+lifetime = 10
+action = {
+  'taskkill /f /im calc.exe 2>nul',
+  'start calc'
+}
